@@ -12,6 +12,11 @@ class Song
     @artist
   end
 
+  def artist_name
+    song.artist ? song.artist.name : nil
+  end
+
+
   def self.all
     @@all
   end #of all
