@@ -12,7 +12,7 @@ class Artist
   end
 
   def count_songs
-    @song << song
+    @songs << song
     @@all_songs += 1
   end
 
